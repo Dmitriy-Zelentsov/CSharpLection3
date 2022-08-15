@@ -44,3 +44,31 @@ string Method4(int count, string c)
 string res = Method4(3, "x");
 //Console.WriteLine(res);
 
+
+
+///4 Группа методовcс помощью цикла for
+//string Method4(int count, string c)
+//{
+    //string result = String.Empty;
+    //for (int i = 0; i < count; i++)
+    //{
+        //result = result + c;
+    //}
+    //return result;
+//}
+//string res = Method4(3, "x");
+//Console.WriteLine(res);
+
+
+
+//Задача вывода таблицы умножения на экран
+
+for (int i = 2; i <= 10; i++)
+{
+    for (int j = 2; j <= 10; j++)
+    {
+        Console.WriteLine($"{i}*{j}={i*j}");
+    }
+    Console.WriteLine();
+}
+
